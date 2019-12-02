@@ -1,0 +1,745 @@
+/* Start Global */
+
+
+body {
+	background-color: #f1f2f4;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0
+}
+
+
+@media (max-width: 991.99px) { 
+form ul {
+	padding-left: 0;
+
+}
+	
+}
+	
+
+
+
+@media (max-width: 767.99px) { 
+button.navbar-toggler {
+}
+	
+}
+	
+
+
+@media (max-width: 575.99px) { 
+li.nav-item.dropdown {
+	margin-right: 0;
+
+	}
+	
+}
+	
+
+
+
+li {
+	list-style: none;
+}
+
+
+
+.dropdown-menu {
+	min-width: 100%!important
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #2977ff!important;
+	border-bottom: 3px solid #2977ff;
+}
+
+
+
+/* End Global */
+
+
+
+
+
+
+/* Start Navbar */
+nav {
+	padding:10px 30px 0!important;
+	min-height: 60px; 
+	background-color: #fff;
+}
+
+
+@media (max-width:991.99px) {
+nav {
+margin-top: 70px;
+	
+	}
+}
+
+nav img.logo {
+	height: 30px;
+	margin-right: 25px;
+	
+}
+
+
+
+nav .nav-item {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+nav .nav-item .nav-link {
+	font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    line-height: 43px;
+	transition: .1s all ease-in-out;
+}
+
+
+nav .nav-item .nav-link .fa-th-large,
+nav .nav-item .nav-link .fa-file-alt,
+nav .nav-item .nav-link .fa-check-square {
+	margin-right: 5px;
+	color: #e1e5e9;
+}
+
+nav .nav-item.active .nav-link .fa-file-alt {
+	color: #2977ff!important;
+
+}
+
+
+@media (max-width:991.99px) {
+.down-menus {
+	position: absolute;
+	top: -70px;
+	width: 100%;
+	left: 0;
+		
+	}
+ 	
+}
+
+
+
+a#navbarDropdown {
+   color: #75849b;
+	font-size: 14px;
+}
+
+a#navbarDropdown.user {
+    border-right: 1px solid #f1f3f5;
+	margin-right: -20px;	
+}
+
+
+@media (max-width: 575.99px) { 
+a#navbarDropdown.user {
+    border-right: 0;
+	}
+	
+}
+	
+
+.dropdown-menu.user.show {
+    margin-left: 15px;
+	text-align: center;
+}
+
+
+
+nav .nav-item .user-img {
+	border-radius: 50%;
+	width: 35px;
+	margin-top: -4px;
+	margin-right: 5px;
+}
+
+
+
+/* End Navbar */
+
+
+
+
+
+/* Start Content */ 
+
+
+.content {
+	background-color: #fff;
+	min-height: 600px;
+	margin: 20px;
+	padding: 20px 0 80px;
+	border-radius: 5px;
+}
+
+
+
+
+@media (max-width: 991.99px) { 
+	.content {
+		padding-bottom: 110px;
+	}
+}
+	
+	
+
+
+/* Start Exam-title */
+
+.content .exam-title {
+	border-bottom: 1px solid #ddd;
+	padding: 15px 20px;
+	color: #465061;
+
+}
+
+
+
+
+.content .exam-title .title {
+    position: relative;
+    font-size: 26px;
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+@media (max-width: 575.99px) { 
+.content .exam-title .title {	
+   font-size: 20px;
+	padding-left: 0;
+
+	}
+	
+}
+	
+
+
+.content .exam-title .title .fa-chevron-left {
+	position: absolute;
+	left: 0;
+	top: 3px;
+	color: #c0c6d2;
+}
+
+@media (max-width: 575.99px) { 
+.content .exam-title .title .fa-chevron-left {
+display: none;
+
+
+}
+
+	}
+
+.content .exam-title .course-lv {
+	padding-left: 40px;
+    color: #c0c6d2;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+.content .exam-title .exam-type {
+	padding-left: 40px;
+}
+
+
+	
+	
+	
+
+@media (max-width: 575.99px) { 
+.content .exam-title .title,
+.content .exam-title .course-lv,
+.content .exam-title .exam-type {
+	padding-left: 0;
+
+	}
+	
+}
+	
+	
+
+
+.content .exam-title .exam-type .fa-bars {
+	color: #c0c6d2;
+	margin-right: 5px;
+}
+
+
+.content .exam-title .exam-type .ques-num {
+    font-size: 15px;
+    font-weight: 500;
+}
+	
+@media (max-width: 575.99px) { 
+.content .exam-title .exam-type .ques-num {
+    font-size: 11px;
+}
+	
+	}
+	
+	
+
+.content .exam-title .exam-type .type{
+	border: 1px solid #e1e5e9;
+	background-color: #e5efff;
+	color: #2977ff;
+	padding: 5px 7px;
+	font-size: 13px;
+	font-weight: 600;
+	border-radius: 3px;
+	margin-left: 15px;
+}
+
+
+
+.content .exam-title .time-data{
+	text-align: right;
+	padding-top: 7px;
+}
+
+
+
+
+
+@media (max-width:575.99px) {
+.content .exam-title .time-data{
+	text-align: left;
+	margin-top: 10px;	
+	padding-left: 15px;
+	}
+}
+
+	
+
+
+
+@media (min-width:576px) and (max-width:991.99px){
+.content .exam-title .time-data{
+	text-align: left;
+	margin-top: 25px;
+	padding-left: 50px;
+	}
+}
+
+
+.content .exam-title .time-data .date{
+	font-size: 15px;
+	margin-right: 5px;
+	font-weight: 600;
+
+
+}
+
+
+.content .exam-title .time-data .time{
+	color: #9ba6b7;
+	font-size: 15px;
+	
+
+}
+
+
+.content .exam-title .time-data .time .fa-arrow-right{
+	margin: 0 15px;
+	
+
+}
+
+@media (max-width: 575.99px) { 
+.content .exam-title .time-data .time .fa-arrow-right{
+	margin:0 5px;
+
+	}
+	
+}
+
+
+
+.content .exam-title .time-data .to-pass{
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
+}
+
+
+
+.content .exam-title .time-data .to-pass .min {
+	margin-right: 25px;
+	
+
+}
+
+@media (max-width: 575.99px) { 
+.content .exam-title .time-data .to-pass .min {
+	margin-right: 5px;
+
+	}
+	
+}
+	
+
+.content .exam-title .time-data .to-pass .fa-clock,
+.content .exam-title .time-data .to-pass .fa-flag-checkered {
+	margin-right: 10px;
+	color: #c0c6d2;
+	
+
+}
+
+
+
+.content .exam-title .time-data .delay-time{
+	border: 1px solid #ff9000;
+	background-color: #fff7eb;
+	color: #ff9000;
+	padding: 5px 7px;
+	font-size: 13px;
+	font-weight: 600;
+	border-radius: 3px;
+
+}
+
+
+
+
+/* End Exam Title */
+
+/* Start Prerequisites */
+
+
+.prerequisites {
+	border-bottom: 1px solid #ddd;
+	padding:40px 20px 30px 20px;
+	
+
+}
+
+
+
+.prerequisites .prerequisites-title {
+    color: #465061;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.prerequisites .red-alert{
+	color: #bf5c4d;
+	position: relative;
+	padding-left: 45px;
+	font-size: 14px;
+    font-weight: 600;
+	margin-top: 20px;
+}
+
+
+
+.prerequisites .red-alert .fa-exclamation-triangle{
+	font-size: 30px;
+	position: absolute;
+	left: 0;
+	top: 5px;
+	
+}
+
+
+
+
+
+.prerequisites .blue-alert{
+	background-color: #e5efff;
+	color: #465061;
+	padding:20px 20px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.7;
+	margin-top: 25px;
+}
+
+
+
+
+.prerequisites .download {
+	margin-top: 35px;
+	
+
+
+}
+
+
+.prerequisites .download .download-title{
+	font-size: 16px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	
+
+
+}
+
+@media (max-width: 575.99px) { 
+.prerequisites .download .download-title{
+	margin-bottom: 10px;
+
+	}
+	
+}
+	
+
+
+
+
+.prerequisites .download .windows,
+.prerequisites .download .mac {
+	border: 1px solid #e1e5e9;
+	font-size: 14px;
+	color: #808ea3;
+}
+
+
+@media (max-width: 575.99px) { 
+.prerequisites .download .windows,
+.prerequisites .download .mac {
+	width: 80%;
+	margin-top: 5px;
+
+}
+	
+}
+	
+
+
+
+
+
+
+.prerequisites .download .windows {
+	margin-right: 10px;
+	
+}
+
+.prerequisites .download .windows .fa-windows,
+.prerequisites .download .mac .fa-apple {
+	color: #2977ff;
+	margin-left: 5px;
+	font-size: 15px;
+
+}
+
+
+.prerequisites .download .windows:hover,
+.prerequisites .download .mac:hover {
+    background: #e5efff;
+	border: 1px solid #2977ff;
+}
+
+
+
+
+/* End Prerequisites */
+
+
+/* Start instructions */
+.instructions {
+	padding: 40px 20px 30px 20px;
+}
+
+.instructions .instructions-title {
+	color: #465061;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.instructions .instructions-data {
+	line-height: 1.7;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+
+/* End instructions */
+
+
+
+
+
+
+/* End Content */
+
+
+
+/* Start Fixed Notification */
+
+
+.notification {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #2977ff;
+	min-height: 95px;
+	color: #fff;
+	vertical-align: middle;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 12px;
+	
+	
+}
+
+
+
+@media (max-width: 991.99px) { 
+.counter {
+	padding-left: 0;
+	text-align: center;
+	margin-bottom: 5px;
+	}
+	
+}
+	
+
+
+#timer {
+   font-weight: 300;
+
+}
+
+
+
+
+
+#timer span {
+  display: block;
+  font-size: 15px;
+  color: white;
+}
+
+
+#days,
+#hours,
+#minutes {
+  font-size: 20px;
+  color: #fff;
+	display: inline-block;
+	text-align: center;
+	margin-right: 15px;
+	font-weight: bold
+}
+
+
+
+
+
+
+
+#seconds {
+  font-size: 15px;
+  color: #fff;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold
+	
+	
+}
+
+
+#days span,
+#hours span,
+#minutes span,
+#seconds span {
+	font-weight: 300
+}
+
+
+
+
+
+.notification .notification-data {
+	text-align: right;
+	line-height: 83px;
+}
+
+@media (max-width: 991.99px) { 
+.notification .notification-data {
+	text-align: center;
+	padding-right: 0;
+    padding-left: 0;
+    line-height: 45px;
+	margin-top: 10px;
+
+	}
+	
+}
+	
+
+
+
+
+.notification .notification-data .fa-exclamation-triangle {
+	margin-right: 5px;
+	font-size: 16px;
+	
+}
+
+
+.notification .notification-data span {
+	font-size: 14px;
+}
+
+
+
+.notification .notification-data .ready-btn {
+	background-color: #fff;
+	color: #2977ff;
+	font-weight: 600;
+	padding: 10px 20px;
+	margin-left: 15px;
+	font-size: 19px;
+}
+
+
+@media (max-width: 991.99px) { 
+.notification .notification-data .ready-btn {
+	padding: 6px 12px;
+	font-size: 15px;
+
+	}
+	
+}
+	
+
+
+/* End Fixed Notification */
